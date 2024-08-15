@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.counter{
+    font-size: 50px;
+    
+}
+
+.count{
+    font-size: 100px;
+    margin: 0;
+}
+
+.btn{
+    border: 0;
+    margin: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.minus{
+    background-color: red;
+}
+.minus:hover{
+    background-color: #8B0000;
+}
+
+.reset{
+    background-color: lightgray;
+}
+.reset:hover{
+    background-color: darkgray;
+}
+.plus{
+    background-color: green;
+}
+.plus:hover{
+    background-color: #006400;
+}
